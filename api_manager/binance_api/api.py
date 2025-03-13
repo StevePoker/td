@@ -5,7 +5,7 @@ from api_manager.hepler.TimeFormatter import TimeConverter
 class BinanceAPI:
 
     def __init__(self):
-        self.client = Client(api_key='S6FYO34BAW0W0JC7W574', api_secret='fg59nFCPOIDZdQIiYZO0jicVT9LmDDfXLtZUKTA9')
+        self.client = Client(api_key='', api_secret='')
 
     @staticmethod
     def __add_headers(candles):
